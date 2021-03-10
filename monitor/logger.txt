@@ -1,0 +1,5 @@
+ El servidor 192.168.0.18 HA DEJADO DE FUNCIONAR fecha: 09/03/2021  hora: 21:54 
+ El servidor 192.168.0.18 HA DEJADO DE FUNCIONAR fecha: 09/03/2021  hora: 21:57 
+ El servidor: 192.168.0.18 esta funcionando fecha: 09/03/2021  hora: 21:58 
+ El servidor 192.168.0.18 HA DEJADO DE FUNCIONAR fecha: 09/03/2021  hora: 23:05 
+ El servidor 192.168.0.18 HA DEJADO DE FUNCIONAR fecha: 09/03/2021  hora: 23:10 
