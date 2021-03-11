@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Pokemons</title>
+    <meta charset="utf-8">
+	<link rel="stylesheet" href="estilos.css">
+</head>
+    <body> 
+		<ul>
+        	<li><a href="lista.html">Lista Pokemons</a> </li>
+		</ul>
+        <h1>Registre Pokemons</h1>
+        <p id="Texto">Ingrese los datos del pokemon</p>
+        <form action="/registrarPokemon" method="POST">
+            <label for="nombrepokemon">Nombre</label>
+            <input type="text" name="nombrepokemon" id="nombrepokemon" placeholder="" required></br></br>
+
+            <label for="peso">Peso (KG)</label>
+            <input type="number" name="peso" id="peso" min="0" max="500" required ></br></br>
+
+            <label for="altura">Altura (m)</label>
+            <input type="number" name="altura" id="altura" min="1" max="15" required ></br></br>
+
+            <label>Selecione Tipo: </label> </b>
+            <p><label> <input type="radio" name="tipo" value="agua" checked>Agua </label></p>
+            <p><label> <input type="radio" name="tipo" value="planta" checked>Planta </label></p>
+            <p><label> <input type="radio" name="tipo" value="fuego" checked>Fuego</label></p>
+            
+            <input type="submit" value="Registrar Pokemon">
+        </form>
+    </body> 
+</html>
